@@ -1,0 +1,243 @@
+/* ===================== GLOBAL ===================== */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, serif;
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+/* ===================== SEÇÕES ===================== */
+.secao {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+#sobre, #contato, #projetos {
+    width: 100%;
+}
+
+.titulo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: Georgia, serif;
+}
+.informacoes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+/* ===================== SOBRE ===================== */
+#sobre, #projetos.secao {
+    background: #C0C0C0;
+}
+#contato, #projetos.secao {
+    margin-top: 1rem;
+
+}
+#sobre .conteudo {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+#sobre h2 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+#sobre p {
+    font-family: Georgia, serif;
+
+}
+
+.foto {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+/* ===================== habilidades ===================== */
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+#hard {
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+}
+
+.skill {
+    margin: 2rem;
+
+}
+
+.skill span {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    display: block;
+}
+.barra {
+    width: 90%;
+    height: 8px;
+    background: #C0C0C0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nivel {
+    height: 90%;
+    background: #000;
+    border-radius: 10px;
+    transition: width 0.6s ease;
+
+}
+#soft {
+    width: 100%;
+    margin-top: 1rem;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#soft span {
+    margin: 4px;
+    background: #eaeaea;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+.linha-skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.porcentagem {
+    font-size: 0.85rem;
+    font-weight: bold;
+    min-width: 35px;
+    text-align: right;
+}
+
+
+
+/* ===================== PROJETOS ===================== */
+#projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.conteudo-projeto {
+border: 1px solid rgba(169, 92, 104, 0.2);
+    border-radius: 20px;
+    margin: 1rem;
+    overflow: hidden;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.conteudo-projeto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+
+.foto-proj {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.conteudo-projeto h2 {
+    margin: 0.5rem 0;
+}
+
+.conteudo-projeto p {
+    padding: 1rem;
+    
+    font-size: 0.90rem;
+    line-height: 1.4;
+}
+.demo {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #B22222;
+    border-radius: 8px;
+   border: 1px solid #000;
+
+    font-size: 1rem;;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.demo:hover {
+    opacity: 0.85;
+}
+
+#contato {
+    min-height: 45vh;
+}
+
+
+/* ===================== FOOTER ===================== */
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #222;
+    color: #fff;
+}
