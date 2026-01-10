@@ -50,10 +50,10 @@ const projetos = [{
 },
 
     {
-        imagem: "Cafeteria.jpg",
-        nome: "Site de cafeteria",
-        descricao: "Versão alternativa do site da cafeteria, destacando produtos e eventos especiais, com navegação intuitiva e design limpo.",
-        demo: "https://kccristinadev-dev.github.io/CafeteriaFicticia/"
+        imagem: "Calculadora.jpg",
+        nome: "Calculadora de Indicadores Logísticos",
+        descricao: "Projeto desenvolvido para calcular e analisar indicadores essenciais de estoque, como giro de estoque, consumo médio, cobertura e risco de ruptura, auxiliando na tomada de decisões mais rápidas e baseadas em dados.",
+        demo: "https://kccristinadev-dev.github.io/Calculadora-de-Indicadores-de-desempenho-/"
     },
     {
         imagem: "turismo.jpg",
