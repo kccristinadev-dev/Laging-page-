@@ -4,7 +4,6 @@ const textos = {
     produtos: "Alguns dos meus projetos"
 };
 
-
 const sobre = [{
     imagem: "Eu.jpg",
     nome: "Olá, sou kethelyn Cristina",
