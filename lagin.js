@@ -8,7 +8,7 @@ const textos = {
 const sobre = [{
     imagem: "Eu.jpg",
     nome: "Olá, sou kethelyn Cristina",
-    resumo: "Estudante de Desenvolvimento de Sistemas e Logística, programadora front-end e back-end, criadora de projetos e apresentações. Estou aberta a colaborar em desafios e aprender a cada oportunidade.",
+    resumo: "Estudante de Desenvolvimento de Sistemas e Logística, programadora front-end, criadora de projetos e apresentações. Estou aberta a colaborar em desafios e aprender a cada oportunidade.",
     rede: "https://github.com/kccristinadev-dev",
     rede2: "https://www.canva.com/design/DAG4hxRQ0qU/o1YxcGzQJmauT7X9EivjMw/edit?ui=eyJEIjp7IlQiOnsiQSI6IlBCaGZ3OVFOUHdqbmM2aGoifX19&utm_content=DAG4hxRQ0qU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     rede4:"https://www.linkedin.com/in/kethelyn-cristina-142350390?utm_source=share_via&utm_content=profile&utm_medium=member_android"
