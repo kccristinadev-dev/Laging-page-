@@ -9,7 +9,7 @@ const sobre = [{
     nome: "Olá, sou kethelyn Cristina",
     resumo: "Estudante de Desenvolvimento de Sistemas e Logística, programadora front-end, criadora de projetos e apresentações. Estou aberta a colaborar em desafios e aprender a cada oportunidade.",
     rede: "https://github.com/kccristinadev-dev",
-    rede2: "https://www.canva.com/design/DAG9kqCXnYk/0xFLrdQ_1zEUsXJyq6RVzA/edit",
+    rede2: "https://www.canva.com/design/DAG9kqCXnYk/OpkJ9VtPDONgqG-ZEy_6-g/view?utm_content=DAG9kqCXnYk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habc1148220",
     rede4:"https://www.linkedin.com/in/kethelyn-cristina-142350390?utm_source=share_via&utm_content=profile&utm_medium=member_android"
 }];
 
