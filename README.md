@@ -2,4 +2,7 @@
 
 meu primeiro portfólio 
 
-Calculadora.jpg
+<p align="center">
+  <img src="Calculadora.jpg" width="300">
+</p>
+
