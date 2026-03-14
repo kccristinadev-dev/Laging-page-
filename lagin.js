@@ -16,16 +16,16 @@ const sobre = [{
 
 const hard = [{
     nome: "HTML",
-    nivel: 50
+    nivel: 60
 },
 
     {
         nome: "CSS",
-        nivel: 45
+        nivel: 55
     },
     {
         nome: "JS",
-        nivel: 25
+        nivel: 55
     }];
 
 const softskill = [{
